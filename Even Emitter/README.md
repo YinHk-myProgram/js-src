@@ -1,8 +1,9 @@
 
-## EventE
+### EventEmitter.js
 
 
-## Event emitter npm package 
+
+### Event emitter npm package 
 ### emitter.js - EventEmitter3
 install
 ```
