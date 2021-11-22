@@ -1,6 +1,11 @@
 
 ### EventEmitter.js
-
+```
+EventEmitter.on()  //listerner  
+EventEmitter.emit()  //emit an event to listener
+EventEmitter.remove()  //remove the listener
+EventEmitter.delete()  //delete event
+```
 
 
 ### Event emitter npm package 
