@@ -3,14 +3,14 @@
 
 
 ## Event emitter npm package 
-### EventEmitter3
+### emitter.js - EventEmitter3
 install
 ```
 npm i eventemitter3
 ```
 https://github.com/primus/eventemitter3
 
-### eventemitter2
+### emitter2.js - eventemitter2
 install
 ```
 npm i eventemitter2
