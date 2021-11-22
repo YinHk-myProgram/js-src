@@ -7,10 +7,8 @@ EventEmitter.remove()  //remove the listener
 EventEmitter.delete()  //delete event
 ```
 
-
-### Event emitter npm package 
 ### emitter.js 
-- EventEmitter3
+- EventEmitter3 (Event emitter npm package)
 install
 ```
 npm i eventemitter3
@@ -18,7 +16,7 @@ npm i eventemitter3
 https://github.com/primus/eventemitter3
 
 ### emitter2.js 
-- eventemitter2
+- eventemitter2 (Event emitter npm package)
 install
 ```
 npm i eventemitter2
