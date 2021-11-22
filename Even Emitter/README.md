@@ -23,5 +23,5 @@ install
 ```
 npm i eventemitter2
 ```
-https://github.com/EventEmitter2/EventEmitter2#readme
+https://github.com/EventEmitter2/EventEmitter2#readme \
 https://www.npmjs.com/package/eventemitter2#haslistenersevent--eventnsstringboolean
