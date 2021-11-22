@@ -9,7 +9,7 @@ EventEmitter.delete()  //delete event
 
 ### emitter.js 
 - EventEmitter3 (Event emitter npm package)
-- 
+
 install
 ```
 npm i eventemitter3
@@ -18,7 +18,7 @@ https://github.com/primus/eventemitter3
 
 ### emitter2.js 
 - eventemitter2 (Event emitter npm package)
-- 
+
 install
 ```
 npm i eventemitter2
