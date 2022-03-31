@@ -1,0 +1,1791 @@
+var data = [{
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "MacLehose Dental Centre 6/F",
+        "Site Chinese Name": "麥理浩牙科中心六樓",
+        "Site code": "MDC6F",
+        "Address": "6/F MacLehose Dental Centre, 286 Queen's Road East, Wanchai, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Mona Fong Dental Clinic",
+        "Site Chinese Name": "方逸華牙科診所",
+        "Site code": "MFDC",
+        "Address": "1/F, Mona Fong Clinic, 23 Man Nin Street, Sai Kung",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Ma On Shan Dental Clinic",
+        "Site Chinese Name": "馬鞍山牙科診所",
+        "Site code": "MOSDC",
+        "Address": "1/F, Ma On Shan Health Centre, 609 Sai Sha Road, Ma On Shan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Madam Yung Fung Shee Dental Clinic",
+        "Site Chinese Name": "容鳳書牙科診所",
+        "Site code": "MYFSDC",
+        "Address": "2/F, Madam Yung Fung Shee Health Centre, 26 Sai Ching Street, Yuen Long",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "North District Hospital OMS & Dental Clinic",
+        "Site Chinese Name": "北區醫院口腔頜面外科及牙科診所",
+        "Site code": "NDHOMSDU",
+        "Address": "LG1, North District Hospital, 9 Po Kin Road, Fanling",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Princess Margaret Hospital OMS & Dental Clinic",
+        "Site Chinese Name": "瑪嘉烈醫院口腔頜面外科及牙科診所",
+        "Site code": "PMHOMSDU",
+        "Address": "LG 2, Block F, Princess Margaret Hospital, 2-10 Lai King Hill Road, Kwai Chung",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Prince of Wales Hospital OMS & Dental Clinic",
+        "Site Chinese Name": "威爾斯親王醫院口腔頜面外科及牙科診所",
+        "Site code": "PWHOMSDU",
+        "Address": "1/F, Li Ka Shing Specialist Clinic (North Wing), Prince of Wales Hospital,  30-32 Ngan Shing Street, Sha Tin",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Pamela Youde Government Dental Clinic",
+        "Site Chinese Name": "尤德夫人政府牙科診所",
+        "Site code": "PYGDC",
+        "Address": "1/F, 31-33 Chap Wai Kon Street, Yuen Chau Kok, Sha Tin",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Pamela Youde Nethersole Eastern Hospital OMS & Dental Clinic",
+        "Site Chinese Name": "東區尤德夫人那打素醫院口腔頜面外科及牙科診所",
+        "Site code": "PYNEHOMSDU",
+        "Address": "1/F Main Block, Pamela Youde Nethersole Eastern Hospital, 3 Lok Man Road, Chai Wan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Queen Elizabeth Hospital OMS & Dental Clinic",
+        "Site Chinese Name": "伊利沙伯醫院口腔頜面外科及牙科診所",
+        "Site code": "QEHOMSDU",
+        "Address": "7/F, Block F, Queen Elizabeth Hospital, 30 Gascoigne Road, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Queen Mary Hospital OMS & Dental Clinic",
+        "Site Chinese Name": "瑪麗醫院口腔頜面外科及牙科診所",
+        "Site code": "QMHOMSDU",
+        "Address": "1/F, Block A, Queen Mary Hospital, 102 Pokfulam Road, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Sheung Kwai Chung Government Dental Clinic",
+        "Site Chinese Name": "上葵涌政府牙科診所",
+        "Site code": "SKCGDC",
+        "Address": "2/F, Mrs. Wu York Yu Health Centre, 310, Wo Yi Hop Road, Lei Muk Shue, N.T",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Sai Ying Pun Dental Clinic 3/F",
+        "Site Chinese Name": "西營盤牙科診所三樓",
+        "Site code": "SYPDC3F",
+        "Address": "3/F Sai Ying Pun Jockey Club Polyclinic, 134 Queen's Road West, Sai Ying Pun, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Sai Ying Pun Dental Clinic 8/F",
+        "Site Chinese Name": "西營盤牙科診所八樓",
+        "Site code": "SYPDC8F",
+        "Address": "8/F Sai Ying Pun Jockey Club Polyclinic, 134 Queen's Road West, Sai Ying Pun, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Tung Chung Dental Clinic",
+        "Site Chinese Name": "東涌牙科診所",
+        "Site code": "TCDC",
+        "Address": "G/F Tung Chung Health Centre, 6 Fu Tung Street, Tung Chung, Lantau Island",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Tseung Kwan O Dental Clinic",
+        "Site Chinese Name": "將軍澳牙科診所",
+        "Site code": "TKODC",
+        "Address": "2/F, Tseung Kwan O Po Ning Road Health Centre, 28 Po Ning Road, Tseung Kwan O",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Tuen Mun Hospital OMS & Dental Clinic",
+        "Site Chinese Name": "屯門醫院口腔頜面外科及牙科診所",
+        "Site code": "TMHOMSDU",
+        "Address": "T-9, Tuen Mun Hospital, Tsing Chung Koon Road, Tuen Mun",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Tai O Dental Clinic",
+        "Site Chinese Name": "大澳牙科診所",
+        "Site code": "TODC",
+        "Address": "Tai O Jockey Club Clinic, 103 Shek Tsai Po Street, Lantau Island",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Tai Po Wong Siu Ching Dental Clinic",
+        "Site Chinese Name": "大埔王少清牙科診所",
+        "Site code": "TPWSCDC",
+        "Address": "1 Po Wu Lane, Tai Po",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Tang Shiu Kin Dental Clinic",
+        "Site Chinese Name": "鄧肇堅牙科診所",
+        "Site code": "TSKDC",
+        "Address": "G/F, 140 Tsat Tsz Mui Road, North Point, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Tsuen Wan Government Offices Dental Clinic",
+        "Site Chinese Name": "荃灣政府合署牙科診所",
+        "Site code": "TWGODC",
+        "Address": "14/F, Tsuen Wan Government Offices, 38 Sai Lau Kok Road, Tsuen Wan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Victoria Road Dental Clinic",
+        "Site Chinese Name": "域多利道牙科診所",
+        "Site code": "VRDC",
+        "Address": "2/F Kennedy Town Jockey Club Clinic, 45 Victoria Road, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Wan Chai Dental Clinic",
+        "Site Chinese Name": "灣仔牙科診所",
+        "Site code": "WCDC",
+        "Address": "2/F, 99 Kennedy Road, Wan Chai, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Yuen Long Jockey Club Dental Clinic",
+        "Site Chinese Name": "元朗賽馬會牙科診所",
+        "Site code": "YLJCDC",
+        "Address": "269 Castle Peak Road, Yuen Long",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Yau Ma Tei Dental Clinic",
+        "Site Chinese Name": "油麻地牙科診所",
+        "Site code": "YMTDC5F",
+        "Address": "5/F, Yau Ma Tei Jockey Club Clinic, 145 Battery Street, Yau Ma Tei, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Yau Ma Tei Orthodontic Clinic",
+        "Site Chinese Name": "油麻地牙齒矯正科診所",
+        "Site code": "YMTOC",
+        "Address": "6/F, Yau Ma Tei Jockey Club Polyclinic, 145 Battery Street, Yau Ma Tei, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Yan Oi Dental Clinic",
+        "Site Chinese Name": "仁愛牙科診所",
+        "Site code": "YODC",
+        "Address": "2/F, Yan Oi Polyclinic, 6 Tuen Lee Street, Tuen Mun",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Aberdeen Jockey Club Dental Clinic",
+        "Site Chinese Name": "香港仔賽馬會牙科診所",
+        "Site code": "AJCDC",
+        "Address": "Basement, 10 Aberdeen Reservoir Road, Aberdeen, Hong Kong ",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Cheung Chau Dental Clinic",
+        "Site Chinese Name": "長洲牙科診所",
+        "Site code": "CCDC",
+        "Address": "2/F, St. John Hospital, Tung Wan Road, Cheung Chau",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Cheung Sha Wan Government Offices Dental Clinic",
+        "Site Chinese Name": "長沙灣政府合署牙科診所",
+        "Site code": "CSWGODC",
+        "Address": "3/F, West Kowloon Health Centre, Cheung Sha Wan Government Offices Building, 303 Cheung Sha Wan Road, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Dental Service Administration Office",
+        "Site Chinese Name": "牙科服務行政辦公室",
+        "Site code": "DSAO",
+        "Address": "Maclehose Dental 7/F",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Dental Service Head Office",
+        "Site Chinese Name": "牙科服務部總辦事處",
+        "Site code": "DSHO",
+        "Address": "21/F 213 Queen's Road East, Wanchai, Hong Kong, Wu Chung House",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Fanling Health Centre Dental Clinic",
+        "Site Chinese Name": "粉嶺健康中心牙科診所",
+        "Site code": "FHCDC",
+        "Address": "3/F, Fanling Health Centre, 2 Pik Fung Road, Fanling",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Harbour Building Dental Clinic",
+        "Site Chinese Name": "海港政府大樓牙科診所",
+        "Site code": "HBDC",
+        "Address": "9/F Harbour Building, 38 Pier Road, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Harbour Building Orthodontic Clinic",
+        "Site Chinese Name": "海港政府大樓牙齒矯正科診所",
+        "Site code": "HBOC",
+        "Address": "9/F Harbour Building, 38 Pier Road, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Ha Kwai Chung Government Dental Clinic",
+        "Site Chinese Name": "下葵涌政府牙科診所",
+        "Site code": "HKCGDC",
+        "Address": "1/F Ha Kwai Chung Polyclinic, 77 Lai Cho Road, Kwai Chung",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Hong Kong Police College Dental Clinic",
+        "Site Chinese Name": "香港警察學院牙科診所",
+        "Site code": "HKPCDC",
+        "Address": "Hong Kong Police College, 18 Ocean Park Road, Wong Chuk Hang, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Kowloon City Dental Clinic",
+        "Site Chinese Name": "九龍城牙科診所",
+        "Site code": "KCDC",
+        "Address": "3/F, Kowloon City Health Centre, Kowloon City Government Offices, 42 Bailey Street, Hung Hom, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Kwai Chung Hospital Dental Clinic",
+        "Site Chinese Name": "葵涌醫院牙科診所",
+        "Site code": "KCHDC",
+        "Address": "1/F, Kwai Chung Hospital Day Recovery Centre,\n3 - 15 Kwai Chung Hospital Road, Kwai Chung,\nNew Territories\n",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Kennedy Town Community Complex Dental Clinic",
+        "Site Chinese Name": "堅尼地城社區綜合大樓牙科診所",
+        "Site code": "KTCCDC",
+        "Address": "10/F, Kennedy Town Community Complex, 12 Rock Hill Street, Kennedy Town, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Kwun Tong Yung Fung Shee Dental Clinic",
+        "Site Chinese Name": "觀塘容鳳書牙科診所",
+        "Site code": "KTYFSDC",
+        "Address": "G/F, Yung Fung Shee Memorial Centre, 79 Cha KwoLing Road, Kwun Tong, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Kwun Tong Dental Clinic",
+        "Site Chinese Name": "觀塘牙科診所",
+        "Site code": "KTDC",
+        "Address": "LG/F, Kwun Tong Community Health Centre Building, 60 Hip Wo Street, Kwun Tong, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Li Po Chun Dental Clinic",
+        "Site Chinese Name": "李寶椿牙科診所",
+        "Site code": "LPCDC",
+        "Address": "2/F Li Po Chun Health Centre, 22 Arran Street, Tai Kwok Tsui, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "MacLehose Dental Centre 2/F",
+        "Site Chinese Name": "麥理浩牙科中心二樓",
+        "Site code": "MDC2F",
+        "Address": "2/F MacLehose Dental Centre, 286 Queen's Road East, Wanchai, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Castle Peak Hospital Dental Clinic",
+        "Site Chinese Name": "青山醫院牙科診所",
+        "Site code": "CPHDC",
+        "Address": "15 Tsing Chung Koon Road, Tuen Mun",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Queensway Government Offices Dental Clinic",
+        "Site Chinese Name": "金鐘政府合署牙科診所",
+        "Site code": "QGODC",
+        "Address": "4/F, Lower Block, Queensway Government Offices, 66 Queensway, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Tsuen Wan Dental Clinic",
+        "Site Chinese Name": "荃灣牙科診所",
+        "Site code": "TWDC",
+        "Address": "213 Sha Tsui Road, Tsuen Wan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Western Dental Clinic",
+        "Site Chinese Name": "西區牙科診所",
+        "Site code": "WDC",
+        "Address": "G/F, 50 Pokfulam Road, Sai Ying Pun, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Chai Wan Government Dental Clinic",
+        "Site Chinese Name": "柴灣政府牙科診所",
+        "Site code": "CWGDC",
+        "Address": "1/F, Main Block, Pamela Youde Nethersole Eastern Hospital, 3 Lok Man Road, Chai Wan, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Sheung Kwai Chung Prosthodontic Clinic",
+        "Site Chinese Name": "上葵涌修復齒科診所",
+        "Site code": "SKCPC",
+        "Address": "2/F, Mrs. Wu York Yu Health Centre, 310, Wo Yi Hop Road, Lei Muk Shue, N.T",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "West Kowloon Government Offices Dental Clinic",
+        "Site Chinese Name": "西九龍政府合署牙科診所",
+        "Site code": "WKGODC",
+        "Address": "#N/A",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "DTS",
+        "Service": "Dental Service",
+        "Site Name": "Yuen Long Government Offices Dental Clinic",
+        "Site Chinese Name": "元朗政府合署牙科診所",
+        "Site code": "YLGODC",
+        "Address": "1/F, Yuen Long Government Offices, 2 Kiu Lok Square, Yuen Long",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "THS",
+        "Service": "Traval Health Service",
+        "Site Name": "Travel Health Centre ( Hong Kong )",
+        "Site Chinese Name": "旅遊健康中心 (香港)",
+        "Site code": "",
+        "Address": "Room 26, 18/F Wu Chung House, 213 Queen's Road East, Wan Chai.",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "THS",
+        "Service": "Traval Health Service",
+        "Site Name": "Travel Health Centre ( Kowloon )",
+        "Site Chinese Name": "旅遊健康中心 (九龍)",
+        "Site code": "",
+        "Address": "1/F, Cheung Sha Wan Government Offices, 303 Cheung Sha Wan Road.",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "THS",
+        "Service": "Traval Health Service",
+        "Site Name": "Travel Health Service Admin Office",
+        "Site Chinese Name": "",
+        "Site code": "",
+        "Address": "Harbour Section in central",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Anne Black Maternal and Child Health Centre",
+        "Site Chinese Name": "柏立基夫人母嬰健康院",
+        "Site code": "ABLM",
+        "Address": "2/F, Anne Black Health Centre, 140 Tsat Tsz Mui Road, North Point",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Ap Lei Chau Maternal and Child Health Centre",
+        "Site Chinese Name": "鴨?洲母嬰健康院",
+        "Site code": "ALCM",
+        "Address": "2/F, Ap Lei Chau Clinic, 161 Ap Lei Chau Main Street, Ap Lei Chau",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Cheung Chau Maternal and Child Health Centre",
+        "Site Chinese Name": "長洲母嬰健康院",
+        "Site code": "CCHM",
+        "Address": "G/F, St. John Hospital, Cheung Chau Hospital Road, Cheung Chau",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Chai Wan Maternal and Child Health Centre",
+        "Site Chinese Name": "柴灣母嬰健康院",
+        "Site code": "CWAM",
+        "Address": "Level 2, Government Office, Block 6, New Jade Garden, 233 Chai Wan Road, Chai Wan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Child Health Service",
+        "Site Name": "East Kowloon Maternal & Child Health Centre",
+        "Site Chinese Name": "東九龍母嬰健康院",
+        "Site code": "EKOM",
+        "Address": "1/F, East Kowloon Polyclinic, 160 Hammer Hill Road, Diamond Hill",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Fanling Maternal and Child Health Centre",
+        "Site Chinese Name": "粉嶺母嬰健康院",
+        "Site code": "FANM",
+        "Address": "3/F & 5/F, Fanling Health Centre, 2 Pik Fung Road, Fanling",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "North Kwai Chung Maternal and Child Health Centre",
+        "Site Chinese Name": "北葵涌母嬰健康院",
+        "Site code": "KCNM",
+        "Address": "1/F, North Kwai Chung Clinic, 125 Tai Pak Tin Street, Kwai Chung",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Kowloon City Maternal and Child Health Centre",
+        "Site Chinese Name": "九龍城母嬰健康院",
+        "Site code": "KOCM",
+        "Address": "4/F Kowloon City Health Centre, Kowloon City Government Offices, 42 Bailey Street, Hung Hom",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Lam Tin Maternal and Child Health Centre",
+        "Site Chinese Name": "藍田母嬰健康院",
+        "Site code": "LTIM",
+        "Address": "1/F, Lam Tin Polyclinic, 99 Kai Tin Road, Lam Tin",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Lek Yuen Maternal and Child Health Centre",
+        "Site Chinese Name": "瀝源母嬰健康院",
+        "Site code": "LYUM",
+        "Address": "2/F, Lek Yuen Health Centre, 9 Lek Yuen Street, Shatin",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Madam Yung Fung Shee Maternal and Child Health Centre",
+        "Site Chinese Name": "元朗容鳳書母嬰健康院",
+        "Site code": "MDYM",
+        "Address": "1/F, Madam Yung Fung Shee Health Centre, 26 Sai Ching Street, Yuen Long",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Mui Wo Maternal and Child Health Centre",
+        "Site Chinese Name": "梅窩母嬰健康院",
+        "Site code": "MWOM",
+        "Address": "1/F, Mui Wo Clinic, 2 Ngan Kwong Wan Road, Mui Wo, Lantau Island",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Kwun Tong Maternal and Child Health Centre",
+        "Site Chinese Name": "觀塘母嬰健康院",
+        "Site code": "KWTM",
+        "Address": "LG Floor, Kwun Tong Community Health Centre Building, 60 Hip Wo Street, Kwun Tong, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Tseung Kwan O Po Ning Road Maternal and Child Health Centre",
+        "Site Chinese Name": "將軍澳寶寧路母嬰健康院",
+        "Site code": "PNRM",
+        "Address": "1/F, Tseung Kwan O Po Ning Road Health Centre, 28 Po Ning Road, Tseung Kwan O",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Robert Black Maternal and Child Health Centre",
+        "Site Chinese Name": "柏立基母嬰健康院",
+        "Site code": "RBLM",
+        "Address": "1/F, Robert Black Health Centre, 600 Prince Edward Road East, San Po Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Sai Wan Ho Maternal and Child Health Centre",
+        "Site Chinese Name": "西灣河母嬰健康院",
+        "Site code": "SAIM",
+        "Address": "2/F, Sai Wan Ho Health Centre, 28 Tai Hong Street, Sai Wan Ho",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Child Health Service",
+        "Site Name": "South Kwai Chung Maternal & Child Health Centre",
+        "Site Chinese Name": "南葵涌母嬰健康院",
+        "Site code": "KCSM",
+        "Address": "1/F, South Kwai Chung Jockey Club Polyclinic, 310 Kwai Shing Circuit, Kwai Chung",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Sai Ying Pun Maternal and Child Health Centre",
+        "Site Chinese Name": "西營盤母嬰健康院",
+        "Site code": "SYPM",
+        "Address": "4/F, Sai Ying Pun Jockey Club Polyclinic, 134 Queen’s Road West, Sai Ying Pun",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Tung Chung Maternal and Child Health Centre",
+        "Site Chinese Name": "東涌母嬰健康院",
+        "Site code": "TCHM",
+        "Address": "G/F, Tung Chung Health Centre, 6 Fu Tung Street, Tung Chung, Lantau Island",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Tang Chi Ngong Maternal and Child Health Centre",
+        "Site Chinese Name": "鄧志昂母嬰健康院",
+        "Site code": "TCNM",
+        "Address": "4/F, Tang Chi Ngong Specialist Clinic, 284 Queen’s Road East, Wanchai",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Tin Shui Wai Maternal and Child Health Centre",
+        "Site Chinese Name": "天水圍母嬰健康院",
+        "Site code": "TSWM",
+        "Address": "1/F, Tin Shui Wai Health Centre, 3 Tin Shui Road, Tin Shui Wai",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Tsing Yi Maternal and Child Health Centre",
+        "Site Chinese Name": "青衣母嬰健康院",
+        "Site code": "TYIM",
+        "Address": "3/F, Cheung Hong Commerical Complex, Phase I, Cheung Hong Estate, Tsing Yi",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Tuen Mun Wu Hong Maternal and Child Health Centre",
+        "Site Chinese Name": "屯門湖康母嬰健康院",
+        "Site code": "WHOM",
+        "Address": "2/F, Tuen Mun Wu Hong Clinic, 2 Wu Hong Street, Tuen Mun",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "West Kowloon Maternal and Child Health Centre",
+        "Site Chinese Name": "西九龍母嬰健康院",
+        "Site code": "WKNM",
+        "Address": "2/F, West Kowloon Health Centre, Cheung Sha Wan Government Offices, 303 Cheung Sha Wan Road, Sham Shui Po",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Wong Siu Ching Maternal and Child Health Centre",
+        "Site Chinese Name": "王少清母嬰健康院",
+        "Site code": "WSCM",
+        "Address": "1/F, Wong Siu Ching Clinic, 1 Po Wu Lane, Tai Po",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Child Health Service",
+        "Site Name": "Wang Tau Hom Maternal & Child Health Centre",
+        "Site Chinese Name": "橫頭磡母嬰健康院",
+        "Site code": "WTHM",
+        "Address": "G/F, Wang Tau Hom Jockey Club Clinic, 200 Junction Road East, Wang Tau Hom",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Child Health Service",
+        "Site Name": "Wu York Yu Maternal & Child Health Centre",
+        "Site Chinese Name": "伍若瑜母嬰健康院",
+        "Site code": "WUYM",
+        "Address": "1/F, Wu York Yu Health Centre, 55 Sheung Fung Street, Wong Tai Sin",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Yaumatei Maternal and Child Health Centre",
+        "Site Chinese Name": "油麻地母嬰健康院",
+        "Site code": "YMTM",
+        "Address": "6/F, Yaumatei Specialist Clinic Extension, 143 Battery Street, Yaumatei",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Yan Oi Maternal and Child Health Centre",
+        "Site Chinese Name": "仁愛母嬰健康院",
+        "Site code": "YOIM",
+        "Address": "1/F, Yan Oi Polyclinic, 6 Tuen Lee Street, Tuen Mun",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Ma On Shan Maternal and Child Health Centre",
+        "Site Chinese Name": "馬鞍山母嬰健康院",
+        "Site code": "MOSM",
+        "Address": "1/F, Ma On Shan Health Centre, 609 Sai Sha Road, Ma On Shan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Tsuen Wan Maternal and Child Health Centre",
+        "Site Chinese Name": "荃灣母嬰健康院",
+        "Site code": "TWMM",
+        "Address": "9/F, Block C, Yan Chai Hospital, 7-11 Yan Chai Street, Tsuen Wan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Family Health Service Head Office (FHS HO)",
+        "Site Chinese Name": "",
+        "Site code": "FHSHO",
+        "Address": "Wan Chai Guardian House",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Antenatal Service",
+        "Site Name": "Family Health Service Head Office (FHS HO)",
+        "Site Chinese Name": "",
+        "Site code": "FHSHO",
+        "Address": "5/F, Yung Fung Shee Memorial Centre, 79 Cha Kwo Ling Road, Kwun Tong, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Woman Health Serive",
+        "Site Name": "Chai Wan Woman Health Centre",
+        "Site Chinese Name": "柴灣婦女健康中心",
+        "Site code": "",
+        "Address": "2/F, Chai Wan Health Centre, 1 Hong Man Street, Chai Wan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Woman Health Serive",
+        "Site Name": "Lam Tin Woman Health Centre\n",
+        "Site Chinese Name": "藍田婦女健康中心",
+        "Site code": "",
+        "Address": "6/F, Lam Tin Polyclinic, 99 Kai Tin Road, Lam Tin",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FHS",
+        "Service": "Woman Health Serive",
+        "Site Name": "Tuen Mun Woman Health Centre",
+        "Site Chinese Name": "屯門婦女健康中心",
+        "Site code": "",
+        "Address": "Yan Oi Polyclinic, 4 Tuen Lee Street, Tuen Mun",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SOC",
+        "Service": "Social Hygiene Service",
+        "Site Name": "Yau Ma Tei Female Social Hygiene Clinic",
+        "Site Chinese Name": "油麻地女性社會?生科診所",
+        "Site code": "YMTFSHC",
+        "Address": "3/F Yau Ma Tei Jockey Club Polyclinic, 145 Battery Street, Yau Ma Tei",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SOC",
+        "Service": "Social Hygiene Service",
+        "Site Name": "Cheung Sha Wan Dermatological Clinic",
+        "Site Chinese Name": "長沙灣皮膚科診所",
+        "Site code": "CSWDC",
+        "Address": "3/F West Kowloon Health Centre, 303 Cheung Sha Wan Road, Sham Shui Po",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SOC",
+        "Service": "Social Hygiene Service",
+        "Site Name": "Chai Wan Social Hygiene Clinic",
+        "Site Chinese Name": "柴灣社會?生科診所",
+        "Site code": "CWSHC",
+        "Address": "West Wing, LG5 Specialist Out-patient Block, Pamela Youde Nethersole Eastern Hospital, 3 Lok Man Road, Chai Wan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SOC",
+        "Service": "Social Hygiene Service",
+        "Site Name": "Fanling Integrated Treatment Centre (Social Hygiene Service)",
+        "Site Chinese Name": "粉嶺綜合治療中心(社會?生科)",
+        "Site code": "FLITC",
+        "Address": "6/F Fanling Health Centre, 2 Pik Fung Road, Fanling",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SOC",
+        "Service": "Social Hygiene Service",
+        "Site Name": "Sai Ying Pun Dermatological Clinic",
+        "Site Chinese Name": "西營盤皮膚科診所",
+        "Site code": "SYPDC",
+        "Address": "3/F Sai Ying Pun Jockey Club Polyclinic, 134 Queen's Road West, Sai Ying Pun",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SOC",
+        "Service": "Social Hygiene Service",
+        "Site Name": "Tuen Mun Social Hygiene Clinic",
+        "Site Chinese Name": "屯門社會?生科診所",
+        "Site code": "TMSHC",
+        "Address": "5/F Tuen Mun Eye Centre, 4 Tuen Lee Street, Tuen Mun",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SOC",
+        "Service": "Social Hygiene Service",
+        "Site Name": "Wan Chai Social Hygiene Clinic",
+        "Site Chinese Name": "灣仔社會?生科診所",
+        "Site code": "WCSHC",
+        "Address": "6/F Tang Chi Ngong Specialist Clinic, 284 Queen's Road East, Wan Chai",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SOC",
+        "Service": "Social Hygiene Service",
+        "Site Name": "Yung Fung Shee Dermatological Clinic/Social Hygiene Clinic",
+        "Site Chinese Name": "容鳳書皮膚科診所/社會?生科診所",
+        "Site code": "YFSDC/SHC",
+        "Address": "4/F Yung Fung Shee Memorial Centre, 79 Cha Kwo Ling Road, Kwun Tong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SOC",
+        "Service": "Social Hygiene Service",
+        "Site Name": "Yau Ma Tei Dermatological Clinic",
+        "Site Chinese Name": "油麻地皮膚科診所",
+        "Site code": "YMTDC",
+        "Address": "12/F Yau Ma Tei Specialist Clinic Extension, 143 Battery Street, Yau Ma Tei",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SOC",
+        "Service": "Social Hygiene Service",
+        "Site Name": "Yau Ma Tei Male Social Hygiene Clinic",
+        "Site Chinese Name": "油麻地男性社會?生科診所",
+        "Site code": "YMTMSHC",
+        "Address": "4/F Yau Ma Tei Jockey Club Polyclinic, 145 Battery Street, Yau Ma Tei",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FCS",
+        "Service": "Families Clinic, PDQA",
+        "Site Name": "PDQA Administration Unit",
+        "Site Chinese Name": "專業發展及質素保證行政組",
+        "Site code": "PDQA",
+        "Address": "3/F Lam Tin Polyclinic",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FCS",
+        "Service": "Families Clinic, PDQA",
+        "Site Name": "Fanling Families Clinic",
+        "Site Chinese Name": "粉嶺公務員診所",
+        "Site code": "FFC",
+        "Address": "8/F, Fanling Health Centre, 2 Pik Fung Road, Fanling, New Territories",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FCS",
+        "Service": "Families Clinic, PDQA",
+        "Site Name": "Chai Wan Families Clinic",
+        "Site Chinese Name": "柴灣公務員診所",
+        "Site code": "CWFC",
+        "Address": "1/F, Main Block, Pamela Youde Nethersole Eastern Hospital, 3 Lok Man Road, Chai Wan, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FCS",
+        "Service": "Families Clinic, PDQA",
+        "Site Name": "Hong Kong Families Clinic",
+        "Site Chinese Name": "香港公務員診所",
+        "Site code": "HKFC",
+        "Address": "3/F, Tang Chi Ngong Specialist Clinic, 284 Queen's Road East, Wanchai, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FCS",
+        "Service": "Families Clinic, PDQA",
+        "Site Name": "Kowloon Families Clinic",
+        "Site Chinese Name": "九龍公務員診所",
+        "Site code": "KFC",
+        "Address": "6/F, Kowloon City Health Centre, 42 Bailey Street, Hung Hom, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FCS",
+        "Service": "Families Clinic, PDQA",
+        "Site Name": "New Territories Families Clinic",
+        "Site Chinese Name": "新界公務員診所",
+        "Site code": "NTFC",
+        "Address": "1/F, Mrs. Wu York Yu Health Centre, 310 Wo Yi Hop Road, Lei Muk Shue, New Territories",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FCS",
+        "Service": "Families Clinic, PDQA",
+        "Site Name": "Education and Training Centre in Family Medicine",
+        "Site Chinese Name": "家庭醫學深造培訓中心",
+        "Site code": "NTKFMTC",
+        "Address": "2/F, Ngau Tau Kok Jockey Club Clinic, 60 Ting On Street, Ngau Tau Kok, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "FCS",
+        "Service": "Families Clinic, PDQA",
+        "Site Name": "Sai Kung Families Clinic",
+        "Site Chinese Name": "西貢公務員診所",
+        "Site code": "SKFC",
+        "Address": "#N/A",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CGS",
+        "Service": "Clinical Genetic Service",
+        "Site Name": "Genetic Screening Clinic",
+        "Site Chinese Name": "遺傳篩選診所",
+        "Site code": "GSC",
+        "Address": "1/F, Cheung Sha Wan Jockey Club Clinic, 2 Kwong Lee Road, Sham Shui Po, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CGS",
+        "Service": "Clinical Genetic Service",
+        "Site Name": "Genetic Counselling Clinic in Queen Elizabeth Hospital Ambulatory Care Centre",
+        "Site Chinese Name": "伊利沙伯醫院日間醫療中心遺傳輔導診所",
+        "Site code": "QEHGCC-ACC",
+        "Address": "4/F, Ambulatory Care Centre, Queen Elizabeth Hospital, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CGS",
+        "Service": "Clinical Genetic Service",
+        "Site Name": "Genetic Counselling Clinic in Queen Elizabeth Hospital L Block Special Clinic",
+        "Site Chinese Name": "伊利沙伯醫院L座遺傳輔導診所",
+        "Site code": "QEHGCC-LBK",
+        "Address": "L Block, Queen Elizabeth Hospital, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CGS",
+        "Service": "Clinical Genetic Service",
+        "Site Name": "Genetic Counselling Clinic",
+        "Site Chinese Name": "遺傳輔導診所",
+        "Site code": "GCC",
+        "Address": "1/F, Cheung Sha Wan Jockey Club Clinic, 2 Kwong Lee Road, Sham Shui Po, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CGS",
+        "Service": "Clinical Genetic Service",
+        "Site Name": "Genetic Counselling Clinic",
+        "Site Chinese Name": "遺傳輔導診所",
+        "Site code": "",
+        "Address": "Child Hospital Tower B, 1/F",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CGS",
+        "Service": "Clinical Genetic Service",
+        "Site Name": "Genetic Screening Clinic",
+        "Site Chinese Name": "遺傳篩選診所",
+        "Site code": "",
+        "Address": "Child Hospital Tower B, 1/F",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CGS",
+        "Service": "Clinical Genetic Service",
+        "Site Name": "Admin office",
+        "Site Chinese Name": "",
+        "Site code": "",
+        "Address": "Child Hospital Tower B, 9/F",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SPP",
+        "Service": "Special Preventive Programme",
+        "Site Name": "Kowloon Bay Integrated Treatment Centre",
+        "Site Chinese Name": "綜合治療中心",
+        "Site code": "SPPITC",
+        "Address": "8/F & 9/F Kowloon Bay Health Centre, 9 Kai Yan Street, Kowloon Bay",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Wanchai Chest Clinic",
+        "Site Chinese Name": "灣仔胸肺科診所",
+        "Site code": "WCC",
+        "Address": "1/F, Wanchai Polyclinic, 99 Kennedy Road, Wanchai, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Sai Ying Pun Chest Clinic",
+        "Site Chinese Name": "西營盤胸肺科診所",
+        "Site code": "SYPCC",
+        "Address": "2/F, Sai Ying Pun Jockey Club Polyclinic, 134 Queen's Road West, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Shaukeiwan Chest Clinic",
+        "Site Chinese Name": "筲箕灣胸肺科診所",
+        "Site code": "SKWCC",
+        "Address": "2/F, Shaukeiwan Jockey Club Polyclinic, 8 Chai Wan Road, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "East Kowloon Chest Clinic",
+        "Site Chinese Name": "東九龍胸肺科診所",
+        "Site code": "EKCC",
+        "Address": "G/F, East Kowloon Polyclinic, 160 Hammer Hill Road, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Kowloon Chest Clinic",
+        "Site Chinese Name": "九龍胸肺科診所",
+        "Site code": "KCC",
+        "Address": "G/F, 147A, Argyle Street, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Shek Kip Mei Chest Clinic",
+        "Site Chinese Name": "石硤尾胸肺科診所",
+        "Site code": "SKMCC",
+        "Address": "1/F, Shek Kip Mei Health Centre, 2 Berwick Street, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Yaumatei Chest Clinic",
+        "Site Chinese Name": "油麻地胸肺科診所",
+        "Site code": "YMTCC",
+        "Address": "2/F, Yau Ma Tei Jockey Club Polyclinic, 145 Battery Street, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Yung Fung Shee Chest Clinic",
+        "Site Chinese Name": "容鳳書胸肺科診所",
+        "Site code": "YFSCC",
+        "Address": "1/F, Yung Fung Shee Memorial Centre, 79 Cha Kwo Ling Road, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Cheung Chau Chest Clinic",
+        "Site Chinese Name": "長洲胸肺科診所",
+        "Site code": "CCCC",
+        "Address": "G/F, St John Hospital, Cheung Chau Hospital Road, Tung Wan, Cheung Chau",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Sai Kung Chest Clinic",
+        "Site Chinese Name": "西貢胸肺科診所",
+        "Site code": "SKCC",
+        "Address": "G/F, Mona Fong Clinic, 23 Man Nin Street, Sai Kung, New Territories",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Sheung Shui Chest Clinic",
+        "Site Chinese Name": "上水胸肺科診所",
+        "Site code": "SSCC",
+        "Address": "1/F, Shek Wu Hui Jockey Club Clinic, 108 Jockey Club Road, Shek Wu Hui, Sheung Shui, New Territories",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "South Kwai Chung Chest Clinic",
+        "Site Chinese Name": "南葵涌胸肺科診所",
+        "Site code": "SKCCC",
+        "Address": "G/F, 310 Kwai Shing Circuit,?Kwai Chung, New Territories",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Tai Po Chest Clinic",
+        "Site Chinese Name": "大埔胸肺科診所",
+        "Site code": "TPCC",
+        "Address": "1/F,Tai Po Jockey Club Clinic, 37 Ting Kok Road, Tai Po, New Territories",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Tung Chung Chest Clinic",
+        "Site Chinese Name": "東涌胸肺科診所",
+        "Site code": "TCCC",
+        "Address": "1/F,Tung Chung Health Centre, 6 Fu Tung Street, Tung Chung, Lantau Island",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Yan Oi Chest Clinic",
+        "Site Chinese Name": "仁愛胸肺科診所",
+        "Site code": "YOCC",
+        "Address": "2/F, Yan Oi Polyclinic, 6 Tuen Lee Street, Tuen Mun, New Territories",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Yuen Long Chest Clinic",
+        "Site Chinese Name": "元朗胸肺科診所",
+        "Site code": "YLCC",
+        "Address": "G/F, Yuen Long Jockey Club Health Centre,269 Castle Peak Road, Yuen Long, New Territories",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Yuen Chau Kok Chest Clinic",
+        "Site Chinese Name": "圓洲角胸肺科診所",
+        "Site code": "YCKCC",
+        "Address": "1/F, 29 Chap Wai Kon Street, Shatin, New Territories",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Pneumoconiosis Clinic",
+        "Site Chinese Name": "肺塵埃沉?病診所",
+        "Site code": "PC",
+        "Address": "4/F, Shaukeiwan Jockey Club Polyclinic, 8 Chai Wan Road, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "TB & Chest Service, HQs",
+        "Site Chinese Name": "胸肺科總部",
+        "Site code": "TBCHQ",
+        "Address": "1/F, Wanchai Polyclinic, 99 Kennedy Road, Wanchai, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Radio-diagnostic & Imaging Centre (Kowloon Bay)",
+        "Site Chinese Name": "九龍灣X光診斷中心",
+        "Site code": "",
+        "Address": "10/F, Kowloon Bay Health Centre, 9 Kai Yan Street, Kowloon Bay",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Radio-diagnostic & Imaging Centre (Fanling)",
+        "Site Chinese Name": "粉嶺X光診斷中心",
+        "Site code": "",
+        "Address": "5/F, Fanling Health Centre, 2 Pik Fung Road, Fanling, New Territories",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "TBC",
+        "Service": "Tuberculosis & Chest Service and Pneumoconiosis Clinic & Chest X-ray Service",
+        "Site Name": "Sai Ying Pun X-ray Survey Centre",
+        "Site Chinese Name": "西營盤X光檢測中心",
+        "Site code": "",
+        "Address": "7/F, Sai Ying Pun Jockey Club Polyclinic, 134 Queen's Road West, Hong Kong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Aberdeen Elderly Health Centre",
+        "Site Chinese Name": "香港仔長者健康中心",
+        "Site code": "ABDEHC",
+        "Address": "LG/F, Block B, Aberdeen Jockey Club Clinic, 10 Aberdeen Reservoir Road, H.K",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Kowloon City Elderly Health Centre",
+        "Site Chinese Name": "九龍城長者健康中心",
+        "Site code": "KCEHC",
+        "Address": "G/F., Lions Clubs Health Centre, 80 Hau Wong Road, Kowloon City, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Sai Ying Pun Elderly Health Centre",
+        "Site Chinese Name": "西營盤長者健康中心",
+        "Site code": "SYPEHC",
+        "Address": "6/F, Sai Ying Pun Jockey Club Polyclinic, 134 Queen's Road West, H.K.",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Kwai Shing Elderly Health Centre",
+        "Site Chinese Name": "葵盛長者健康中心",
+        "Site code": "KSEHC",
+        "Address": "G/F & 1/F, Shing Wo House, Kwai Shing East Estate, Kwai Yip Street, Kwai Chung, N.T.",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Lam Tin Elderly Health Centre",
+        "Site Chinese Name": "藍田長者健康中心",
+        "Site code": "LTEHC",
+        "Address": "G/F, Lam Tin Community Complex,223 Pik Wan Road, Lam Tin, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Nam Shan Elderly Health Centre",
+        "Site Chinese Name": "南山長者健康中心",
+        "Site code": "NSEHC",
+        "Address": "G/F, Nam Yiu House, Nam Shan Estate, Shek Kip Mei, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "San Po Kong Elderly Health Centre",
+        "Site Chinese Name": "新蒲崗長者健康中心",
+        "Site code": "SPKEHC",
+        "Address": "2/F, Robert Black Health Centre,\n600 Prince Edward Road East, San Po Kong, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Shau Kei Wan Elderly Health Centre",
+        "Site Chinese Name": "筲箕灣長者健康中心",
+        "Site code": "SKWEHC",
+        "Address": "G/F, Shau Kei Wan Jockey Club Clinic, 8 Chai Wan Road, Shau Kei Wan, H.K",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Shek Wu Hui Elderly Health Centre",
+        "Site Chinese Name": "石湖墟長者健康中心",
+        "Site code": "SWHEHC",
+        "Address": "1/F, Shek Wu Hui Jockey Club Clinic, 108-130 Jockey Club Road, Sheung Shui, N.T",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Tai Po Elderly Health Centre",
+        "Site Chinese Name": "大埔長者健康中心",
+        "Site code": "TPEHC",
+        "Address": "G/F, Wong Siu Ching Clinic, 1Po Wu Lane, Tai Po, N.T.",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Tseung Kwan O Elderly Health Centre",
+        "Site Chinese Name": "將軍澳長者健康中心",
+        "Site code": "TKOEHC",
+        "Address": "G/F, Tseung Kwan O Jockey Club Clinic, 99 Po Lam Road North, Tseung Kwan O, N.T.",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Tsuen Wan Elderly Health Centre",
+        "Site Chinese Name": "荃灣長者健康中心",
+        "Site code": "TWEHC",
+        "Address": "G/F, Block B, Lady Trench Polyclinic, 213 Sha Tsui Road,Tsuen Wan, N.T.",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Tuen Mun Wu Hong Elderly Health Centre",
+        "Site Chinese Name": "屯門湖康長者健康中心",
+        "Site code": "TMWHEHC",
+        "Address": "1/F, Tuen Mun Wu Hong Clinic, 2 Wu Hong Street, Tuen Mun, N.T.",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Tung Chung Elderly Health Centre",
+        "Site Chinese Name": "東涌長者健康中心",
+        "Site code": "TCEHC",
+        "Address": "1/F, Block 2, Tung Chung Health Centre, 6 Fu Tung Street, Tung Chung, Lantau Island, NT",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Wan Chai Elderly Health Centre",
+        "Site Chinese Name": "灣仔長者健康中心",
+        "Site code": "WCEHC",
+        "Address": "2/F, Southorn Centre, 130 Hennessy Road, Wan Chai, H.K",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Yau Ma Tei Elderly Health Centre",
+        "Site Chinese Name": "油麻地長者健康中心",
+        "Site code": "YMTEHC",
+        "Address": "1/F, Yau Ma Tei Jockey Club Polyclinic, 145 Battery Street, Yau Ma Tei, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Lek Yuen Elderly Health Centre",
+        "Site Chinese Name": "瀝源長者健康中心",
+        "Site code": "LYEHC",
+        "Address": "3/F, Lek Yuen Health Centre,9 Lek Yuen Street, Sha Tin, N.T.",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Yuen Long Elderly Health Centre",
+        "Site Chinese Name": "元朗長者健康中心",
+        "Site code": "YLEHC",
+        "Address": "G/F, Madam Yung Fung Shee Health Centre, 26 Sai Ching Street, Yuen Long, N.T",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "EHS",
+        "Service": "Elderly Health Service",
+        "Site Name": "Elderly Health Service Headquarter",
+        "Site Chinese Name": "長者健康服務總部",
+        "Site code": "EHSHQ",
+        "Address": "Quarry Bay, 11/F China Chem",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Chai Wan Student Health Service Centre",
+        "Site Chinese Name": "柴灣學生健康服務中心",
+        "Site code": "CWNS",
+        "Address": "1/F Chai Wan Health Centre, 1 Hong Man Street, Chai Wan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Kowloon Bay Student Health Service Centre",
+        "Site Chinese Name": "九龍灣學生健康服務中心",
+        "Site code": "KBYS",
+        "Address": "7/F Kowloon Bay Health Centre, 9 Kai Yan Street, Kowloon Bay",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Kowloon City Lions Clubs Student Health Service Centre",
+        "Site Chinese Name": "九龍城學生健康服務中心",
+        "Site code": "KCYS",
+        "Address": "1/F Lions Clubs Health Centre, 80 Hau Wong Road, Kowloon City",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Lam Tin Student Health Service Centre",
+        "Site Chinese Name": "藍田學生健康服務中心",
+        "Site code": "LTNS",
+        "Address": "5/F Lam Tin Polyclinic, 99 Kai Tin Road, Kwun Tong",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "South Kwai Chung Student Health Service Centre",
+        "Site Chinese Name": "南葵涌學生健康服務中心",
+        "Site code": "SKCS",
+        "Address": "2/F South Kwai Chung Polyclinic, 310 Kwai Shing Circuit, Kwai Chung, Tsuen Wan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Sha Tin Student Health Service Centre",
+        "Site Chinese Name": "沙田學生健康服務中心",
+        "Site code": "STIS",
+        "Address": "1/F Sha Tin (Tai Wai) Clinic?, 2 Man Lai Road, Tai Wai, Sha Tin",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Shek Wu Hui Student Health Service Centre",
+        "Site Chinese Name": "石湖墟學生健康服務中心",
+        "Site code": "SWHS",
+        "Address": "2/F Shek Wu Hui Jockey Club Clinic, 108 Jockey Club Road, Sheung Shui",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Tai Po Student Health Service Centre",
+        "Site Chinese Name": "大埔學生健康服務中心",
+        "Site code": "TPOS",
+        "Address": "2/F Tai Po Jockey Club Clinic, 37 Ting Kok Road, Tai Po",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Western Student Health Service Centre",
+        "Site Chinese Name": "西環學生健康服務中心",
+        "Site code": "WTNS",
+        "Address": "9/F Rumsey Street Multi-storey Carpark Building, 2 Rumsey Street, Sheung Wan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Tsz Wan Shan Wu York Yu Student Health Service Centre",
+        "Site Chinese Name": "慈雲山伍若瑜學生健康服務中心",
+        "Site code": "WYYS",
+        "Address": "2/F Wu York Yu Health Centre, 55 Sheung Fung Street, Tsz Wan Shan",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Yuen Long Student Health Service Centre",
+        "Site Chinese Name": "元朗學生健康服務中心",
+        "Site code": "YLGS",
+        "Address": "1/F Yuen Long Jockey Club Health Centre, 269 Castle Peak Road, Yuen Long",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "Tuen Mun Student Health Service Centre",
+        "Site Chinese Name": "屯門學生健康服務中心",
+        "Site code": "TMNS",
+        "Address": "1/F Tuen Mun Clinic, 11 Tsing Yin Street, Tuen Mun",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SHS",
+        "Service": "Student Health Service",
+        "Site Name": "West Kowloon Government Offices Student Health Service Centre cum Special Assessment Centre",
+        "Site Chinese Name": "西九龍政府合署學生健康服務中心及評估中心",
+        "Site code": "WKNS",
+        "Address": "2/F, South Tower West Kowloon Government Offices\n11 Hoi Ting Road, Yau Ma Tei, Kowloon",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CAS",
+        "Service": "Child Assessment Service",
+        "Site Name": "Central Kowloon Child Assessment Centre",
+        "Site Chinese Name": "中九龍兒童體能智力測驗中心",
+        "Site code": "",
+        "Address": "2/F, 147L Argyle Street, Kowloon City, Kowloon.\n",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CAS",
+        "Service": "Child Assessment Service",
+        "Site Name": "Ha Kwai Chung Child Assessment Centre",
+        "Site Chinese Name": "下葵涌兒童體能智力測驗中心",
+        "Site code": "",
+        "Address": "2/F, Ha Kwai Chung Polyclinic & Special Education Services Centre, 77 Lai Cho Road, Kwai Chung, N.T.\n",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CAS",
+        "Service": "Child Assessment Service",
+        "Site Name": "Pamela Youde Child Assessment Centre (Shatin)",
+        "Site Chinese Name": "尤德夫人兒童體能智力測驗中心(沙田)",
+        "Site code": "",
+        "Address": "2/F, 31-33 Chap Wai Kon Street, Shatin, N.T.\n",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CAS",
+        "Service": "Child Assessment Service",
+        "Site Name": "Fanling Child Assessment Centre",
+        "Site Chinese Name": "粉嶺兒童體能智力測驗中心",
+        "Site code": "",
+        "Address": "4/F, Fanling Health Care Centre, 2 Pik Fung Road, Fanling, N.T.",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CAS",
+        "Service": "Child Assessment Service",
+        "Site Name": "Tuen Mun Child Assessment Centre",
+        "Site Chinese Name": "屯門兒童體能智力測驗中心",
+        "Site code": "",
+        "Address": "G/F, Tuen Mun Hospital, Tsing Chung Koon Road, Tuen Mun, N.T.\n",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CAS",
+        "Service": "Child Assessment Service",
+        "Site Name": "Pamela Youde Child Assessment Centre (Kwun Tong)",
+        "Site Chinese Name": "尤德夫人兒童體能智力測驗中心(觀塘)",
+        "Site code": "",
+        "Address": "3/F, 79 Cha Kwo Ling Road, Kwun Tong, Kowloon\n",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "CAS",
+        "Service": "Child Assessment Service",
+        "Site Name": "Child Assessment Service Admin Office",
+        "Site Chinese Name": "",
+        "Site code": "",
+        "Address": "",
+        "Type": "",
+        "Imaging": ""
+    },
+    {
+        "Service code": "SIT",
+        "Service": "School Immunisation Teams",
+        "Site Name": "School Immunisation Teams, Tsuen Wan Office",
+        "Site Chinese Name": "",
+        "Site code": "TWO",
+        "Address": "Maurine Grantham Health Centre, 115 Castle Peak Road, Tsuen Wan, N.T.",
+        "Type": "",
+        "Imaging": ""
+    }
+]

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        td,
+        th {
+            border: 1px solid #afafaf;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        .container {
+            position: absolute;
+            margin: 45px;
+            padding-bottom: 25px
+        }
+    </style>
+    <script type="text/javascript" src="data.json"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 id="title"></h2>
+        <table id="myTable">
+            <thead>
+                <th>Service Code</br>
+                    <input type="text" class="myInput" onkeyup="myFunction(0)" onfocusout="clearInput(0)" placeholder="Search.." title="Type in a service code"></th>
+                <th>Service</br>
+                    <input type="text" class="myInput" onkeyup="myFunction(1)" onfocusout="clearInput(1)" placeholder="Search.." title="Type in a service"></th>
+                <th>Site Name</br>
+                    <input type="text" class="myInput" onkeyup="myFunction(2)" onfocusout="clearInput(2)" placeholder="Search.." title="Type in a site name"></th>
+                <th>Site Chinese Name</br>
+                    <input type="text" class="myInput" onkeyup="myFunction(3)" onfocusout="clearInput(3)" placeholder="Search.." title="Type in a site chinese name"></th>
+                <th>Site Code</br>
+                    <input type="text" class="myInput" onkeyup="myFunction(4)" onfocusout="clearInput(4)" placeholder="Search.." title="Type in a site code"></th>
+                <th>Address</br>
+                    <input type="text" class="myInput" onkeyup="myFunction(5)" onfocusout="clearInput(5)" placeholder="Search.." title="Type in a address"></th>
+                <th>Type</br>
+                    <input type="text" class="myInput" onkeyup="myFunction(6)" onfocusout="clearInput(6)" placeholder="Search.." title="Type in a type"></th>
+                <th>Imaging</br>
+                    <input type="text" class="myInput" onkeyup="myFunction(7)" onfocusout="clearInput(7)" placeholder="Search.." title="Type in a imaging"></th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script>
+        var json = data;
+
+        for (var i = 0; i < json.length; i++) {
+
+            var temp = document.getElementsByTagName("tbody")[0];
+            var row = document.createElement('tr');
+            temp.appendChild(row);
+
+            row.innerHTML = `<td>${json[i][(Object.keys(json[i]))[0]]}</td>` +
+                `<td>${json[i][(Object.keys(json[i]))[1]]}</td>` +
+                `<td>${json[i][(Object.keys(json[i]))[2]]}</td>` +
+                `<td>${json[i][(Object.keys(json[i]))[3]]}</td>` +
+                `<td>${json[i][(Object.keys(json[i]))[4]]}</td>` +
+                `<td>${json[i][(Object.keys(json[i]))[5]]}</td>` +
+                `<td>${json[i][(Object.keys(json[i]))[6]]}</td>` +
+                `<td>${json[i][(Object.keys(json[i]))[7]]}</td>`;
+        }
+
+
+        document.getElementById("title").innerHTML = `${document.getElementById("myTable").getElementsByTagName("tr").length-1}` + " " + "clinic";
+
+        var j = 0,
+            tr = document.getElementById("myTable").getElementsByTagName("tbody")[0].getElementsByTagName("tr"),
+            numOfRow = tr.length,
+            displayRow = [];
+
+
+        function myFunction(k) {
+            var input, filter, table, td, i, txtValue, count = [];
+            input = document.getElementsByClassName("myInput")[k];
+            filter = input.value.toUpperCase();
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[k];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                        j++;
+                        count.push(tr[i]);
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+            document.getElementById("title").innerHTML = `${count.length}` + " " + "of" + " " + `${numOfRow}` + " " + "clinic";
+        }
+
+
+        function clearInput(k) {
+            if (document.getElementsByClassName("myInput")[k].value != '')
+                document.getElementsByClassName("myInput")[k].value = ''
+        }
+    </script>
+
+
+</body>
+
+</html>
